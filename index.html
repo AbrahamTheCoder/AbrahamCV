@@ -2,24 +2,38 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Lang" content="en"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Abraham Herrera | Resume</title>
 
 <link href="favicon.ico" type="image/gif" rel="icon" />
 <link id="mainCSS" rel="stylesheet" type="text/css" href="css/style.css"/>
-<link id="mainCSS" rel="stylesheet" type="text/css" href="css/skins.css"/>
-<link rel="stylesheet" type="text/css" href="css/skin.css" />
+<link id="mainCSSs" rel="stylesheet" type="text/css" href="css/skins.css"/>
+<link rel="stylesheet" type="text/css" href="css/skins.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
 
 <script charset="utf-8" type="text/javascript" src="js/jquery.1.4.2.min.js"></script>
-<script type= "text/javascript" src="js/queryLoader.js" ></script>
+<!--<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>-->
+<!--<script type= "text/javascript" src="js/queryLoader.js" ></script>-->
 <script type="text/javascript" src="js/jquery.backgroundposition.js"></script>
 <script type="text/javascript" src="js/jquery.smooth-scroll.js"></script>
 <script type="text/javascript" src="js/sp.js"></script>
 <script type="text/javascript" src="js/js.js"></script>
 <script type="text/javascript" src="js/skins.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<!--<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+<!--<script type="text/javascript" src="js/bootstrap.js"></script>-->
+<script type="text/javascript">
+        // Put jQuery 1.10.2 into noConflict mode.
+        var $jq1 = jQuery.noConflict(true);
+</script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+
 
 </head>
 
@@ -53,10 +67,10 @@
 
 <!------------------------- NAVIGATION -->
 
-    <div id="navbarHolder">
-        <div id="navbar">
-            <ul>
-                                
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div id="navbarHolder" class="container">
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
                 <li><a id="nav_about" href="#about">ABOUT<span class="m_w">ABOUT</span><span class="m_r">ABOUT</span></a></li>
                 <li><a id="nav_work" href="#work">WORK<span class="m_w">WORK</span><span class="m_r">WORK</span></a></li>
                 <li><a id="nav_projects" href="#projects">Projects<span class="m_w">Projects</span><span class="m_r">Projects</span></a></li>
@@ -64,6 +78,8 @@
             </ul>
         </div>
     </div><!-- end div #navbarHolder -->
+</div>
+
 
 <!------------------------- CONTENT -->
     
@@ -73,9 +89,8 @@
         </div>
 
 <!------------------------- ABOUT -->
-        
-        <div id="about">
-            <a id="logo_big" title="John Doe" href="index.html"></a>
+        <div id="about" class="jumbotron">
+            <a id="logo_big" href="index.html"></a>
             <div id="headline" class="left grid">
                 <h1>Abraham Herrera</h1>
                 <h2><span>Web designer/Software Engineer</span><br /><a href="mailto:herrera190@gmail.com">herrera190@gmail.com</a></h2>
@@ -84,26 +99,26 @@
             <div class="clear">&nbsp;</div>
             <div class="left grid"></div>
             <div class="left grid about_text">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin consectetur ante a pharetra. Aliquam sit amet lorem vitae tortor volutpat iaculis in sed erat. Sed a magna tortor, sit amet dapibus mi. Sed dictum volutpat dictum. Cras rhoncus ultrices lobortis.
-	Pellentesque quis mauris et neque egestas mattis. Nunc congue dapibus lacus. Pellentesque aliquet suscipit pharetra. In dictum, nibh non mattis dapibus, purus sapien vulputate felis, at fermentum arcu dolor in ligula. Etiam adipiscing leo lacinia augue tincidunt eget porta mi bibendum.
-				</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin consectetur ante a pharetra. Aliquam sit amet lorem vitae tortor volutpat iaculis in sed erat. Sed a magna tortor, sit amet dapibus mi. Sed dictum volutpat dictum. Cras rhoncus ultrices lobortis.
+                    Pellentesque quis mauris et neque egestas mattis. Nunc congue dapibus lacus. Pellentesque aliquet suscipit pharetra. In dictum, nibh non mattis dapibus, purus sapien vulputate felis, at fermentum arcu dolor in ligula. Etiam adipiscing leo lacinia augue tincidunt eget porta mi bibendum.
+                </p>
             </div>
             <div class="right grid about_text">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis volutpat felis quis suscipit. Fusce suscipit auctor urna quis mattis:
-					<ul>
-					<li><strong>Adobe Creative Suite</strong></li>
-					<li><strong>Web Standards &amp; Accessibility</strong></li>
-					<li><strong>CSS/HTML</strong></li>
-					<li><strong>PHP/MYSQL</strong></li>
-					<li><strong>JQuery</strong></li>
-					<li><strong>Wordpress</strong></li>
-					</ul>
-				</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis volutpat felis quis suscipit. Fusce suscipit auctor urna quis mattis:
+                </p>
+                <ul>
+                    <li><strong>Adobe Creative Suite</strong></li>
+                    <li><strong>Web Standards &amp; Accessibility</strong></li>
+                    <li><strong>CSS/HTML</strong></li>
+                    <li><strong>PHP/MYSQL</strong></li>
+                    <li><strong>JQuery</strong></li>
+                    <li><strong>Visual.NET</strong></li>
+                </ul>
             </div>
-			<div class="clear"></div>
-		</div><!-- end div #about -->
+            <div class="clear"></div>
+        </div><!-- end div #about -->
 
         <div class="clear"></div>
 
@@ -562,9 +577,9 @@
     </div><!-- end div #container -->
 </div><!-- end div #wrapper -->
 
-<script type='text/javascript'>
-    QueryLoader.init();
-</script>
+<!--<script type='text/javascript'>-->
+    <!--QueryLoader.init();-->
+<!--</script>-->
 
 </body>
 </html>

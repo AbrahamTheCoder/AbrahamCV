@@ -16,7 +16,8 @@ time, mark, audio, video {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline; }
+    vertical-align: baseline;
+    }
  
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -115,7 +116,7 @@ div#projects { margin-top: 64px; }
 div#about {
     padding: 90px 0 0 0;
     position: relative; }
- 
+
 div#work, div#projects, div#contact {
     padding-top: 0;
     min-height: 500px; }
@@ -249,6 +250,7 @@ __________________________________________________________
     width: 195px;
     height: 195px;
     float: left;
+    visibility: hidden;
     margin: 0 45px 0 50px; }
  
 .about_text { margin-left: 32px; }
@@ -278,9 +280,10 @@ div#headline {
     div#headline h2 { color: #333; }
  
         div#headline h2 span {
-            font: normal 25px/40px 'Oswald';
+            font: normal 20px/40px 'Oswald';
             text-transform: uppercase;
-            margin-left: 0; }
+            margin-left: 0;
+            }
  
         div#headline h2 a {
             font: bold 26px/26px 'Oswald';
