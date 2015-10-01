@@ -146,11 +146,12 @@ h1 {
     text-transform: uppercase; }
  
 p {
-    font: 12px Arial;
+    font: 11px Arial;
     color: #202020;
     line-height: 22px;
     padding: 5px 0 8px;
-    text-align: justify; }
+    text-align: justify;
+    }
  
 /*                                                   LINKS
 __________________________________________________________

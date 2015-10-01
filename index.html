@@ -517,29 +517,34 @@
         <div id="contact">
             <h2>Contact.</h2>
             <div class="clear"></div>
-            <div class="contactContainer">
+            <div class="contactContainer" style="visibility: hidden">
                 <h3>Get in touch:</h3>
             	<div class="contact">
                     <form action="js/process-form.php" method="post" id="contactForm">
                     <ul>
                     <li>
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" value="" id="name" />
+                    <label for="first_name">First Name:</label>
+                    <input type="text" name="name" value="" id="first_name" />
                     </li>
+                        <li>
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" name="last_name" value="" id="last_name"/>
+                        </li>
                     <li>
                     <label for="email">Email:</label>
                     <input type="text" name="email" value="" id="email" />
                     </li>
                     <li>
-                    <label for="tele">Telephone:</label>
-                    <input type="text" name="tele" value="" id="tele" />
+                    <label for="telephone">Telephone:</label>
+                    <input type="text" name="telephone" value="" id="telephone" />
                     </li>
                     <li class="special" style="display: none;">
                     <label for="last">Don't fill this in:</label>
                     <input type="text" name="last" value="" id="last" />
                     </li>
                     <li>
-                    <label for="message">Message:</label><textarea rows="5" name="message"></textarea>
+                    <label for="comments">Message:</label>
+                    <textarea id="comments" rows="5" cols="1" name="comments"></textarea>
                     </li>
                     <li class="submitbutton">
                     <input type="submit" class="btn" value="Send Message" />
@@ -551,23 +556,23 @@
 				<p style="margin-top: 30px;"> Developed by Abraham Ramirez Herrera</p>
             </div><!-- end div .contactContainer -->
             <div class="contact_social grid">
-                <span><span class="address">&nbsp;</span>1324 Lorem St, Lorem, Vestibulum</span>
+                <span><span class="address"></span>1324 Lorem St, Lorem, Vestibulum</span>
                 <div class="clear"></div>
-                <span><span class="phone">&nbsp;</span>1234 456 789</span>
+                <span><span class="phone"></span>+52 9991-41-32-27</span>
                 <div class="clear"></div>
-                <span><span class="email">&nbsp;</span>contact@mihaibalea.info</span>
-                <div class="clear"></div>
+                <!--<span><span class="email">&nbsp;</span>contact@mihaibalea.info</span>-->
+                <!--<div class="clear"></div>-->
                 <a href="http://www.facebook.com/templatesbook" class="facebook"></a>
                 <div class="clear"></div>
                 <a href="http://www.twitter.com/bomasmd" class="twitter"></a>
                 <div class="clear"></div>
                 <a href="#" class="linkedin"></a>
                 <div class="clear"></div>
-                <a href="#" class="gmail"></a>
+                <a href="mailto:herrera190@gmail.com" class="gmail"><p>herrera190@gmail.com</p> </a>
             </div><!-- end div .contact_social -->
             <div class="clear"></div>
-			
-			
+
+
            <div id="btn_top"></div> 
         </div><!-- end div #contact -->
     </div><!-- end div #container -->
